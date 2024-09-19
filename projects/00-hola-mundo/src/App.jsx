@@ -14,3 +14,6 @@ export function App () {
 
 /*Tambien se puede pasar {true} poniendo solo el booleano (isFollowing)
 isFollowing={true} = isFollowing */
+
+/*Podriamos usar children en vez de name, ya que el nombre estaria contenido dentro
+de TwitterFollowCard, por lo que seria su hijo */
