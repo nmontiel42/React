@@ -16,4 +16,5 @@ export function App () {
 isFollowing={true} = isFollowing */
 
 /*Podriamos usar children en vez de name, ya que el nombre estaria contenido dentro
-de TwitterFollowCard, por lo que seria su hijo */
+de TwitterFollowCard, por lo que seria su hijo. Children no es un prop normal, es una
+mala practica usarlo como tal */
