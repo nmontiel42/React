@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 
 /* Hemos creado un componente Button que devuelve un elemento
-que crea un boton con texto modificavle y una imagen. En PascalCase */
+que crea un boton con texto modificable y una imagen. En PascalCase */
 const Button = ({text}) => {
   return (
     <button>
