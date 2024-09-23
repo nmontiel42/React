@@ -2,7 +2,7 @@ import './App.css'
 import { TwitterFollowCard } from './TwitterFollowCard'
 
 
-//renderizar un array de usuarios
+//Renderizar un array de usuarios
 const users = [
     {
         userName: 'nmontiel42',
