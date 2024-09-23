@@ -43,7 +43,9 @@ Es una opcion, pero no la mejor */
 }
 
 .tw-followCard-button.is-following {
-    border: 1px, solid red;
+    background: white;
+    color: black;
+    width: 130px;
 }
 
 .tw-followCard-button:hover {
@@ -51,5 +53,24 @@ Es una opcion, pero no la mejor */
 }
 
 .tw-followCard-button.is-following:hover {
-    background-color: red;
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.178);
+    transition: .3s ease all;
+}
+
+.tw-followCard-button.is-following:hover .tw-followCard-stopFollow {
+    display:block;
+}
+
+.tw-followCard-stopFollow {
+    display: none;
+    color: white;
+}
+
+.tw-followCard-text {
+    display: block;
+}
+
+.tw-followCard-button.tw-followCard-button.is-following:hover .tw-followCard-text {
+    display: none;
 }
