@@ -1,0 +1,76 @@
+.tw-followCard {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem; /* Tamaño en base a sus pixeles */
+    justify-content: space-between;
+}
+
+/* .tw-followCard + .tw-followCard {
+    margin-top: 8px;
+}
+Es una opcion, pero no la mejor */
+
+.tw-followCard-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tw-followCard-strong {
+    display: flex;
+    flex-direction: column;
+}
+
+.tw-followCard-span {
+    opacity: .6; /* Manera abreviada de poner 0.6 */
+}
+
+.tw-followCard-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.tw-followCard-button {
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease background-color;
+}
+
+.tw-followCard-button.is-following {
+    background: white;
+    color: black;
+    width: 130px;
+}
+
+.tw-followCard-button:hover {
+    background-color: cyan;
+}
+
+.tw-followCard-button.is-following:hover {
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.178);
+    transition: .3s ease all;
+}
+
+.tw-followCard-button.is-following:hover .tw-followCard-stopFollow {
+    display:block;
+}
+
+.tw-followCard-stopFollow {
+    display: none;
+    color: white;
+}
+
+.tw-followCard-text {
+    display: block;
+}
+
+.tw-followCard-button.tw-followCard-button.is-following:hover .tw-followCard-text {
+    display: none;
+}
